@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: #8dbdd8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #0f0e0e;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.total, .filter {
+    text-align: right;
+    margin-top: 10px;
+}
